@@ -1,0 +1,492 @@
+body {
+    background-color: #FFFFFF;
+}
+
+
+h1, h2, h3, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul, ol {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    width: 1338px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
+
+/* ==================== Header ===================== */
+
+.page-header {
+    padding: 55px 0;
+}
+
+.logo {
+    margin-right: 236px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 1);
+}
+
+.logo-lex {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.5;
+    color: rgba(147, 147, 147, 1);
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #263238;
+}
+
+.header-button:focus,
+.header-button:hover {
+    color: #ffffff;
+    background-color: #E5E5E5;
+    border: transparent;
+}
+
+.header-button {
+    width: 312px;
+    height: 70px;
+    padding: 20px 56px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    color: #000000;
+    background-color: #ffffff;
+    border: 2px solid #263238;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.page-header-contaniar {
+    display: flex;
+    
+}
+
+.page-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: #8F95A5;
+}
+
+.nav-link {
+    padding: 20px 0;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+}
+
+.header-button {
+    margin-left: auto;
+}
+
+/* ==================== /Header ===================== */
+
+/* ======================= Hero ==================== */
+
+.hero {
+    padding-top: 55px;
+    padding-bottom: 180px;
+}
+
+.title-hero {
+    width: 386px;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 1.25;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.text-hero {
+    width: 540px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #8F95A5;
+    margin-bottom: 60px;
+    margin-right: 144px;
+}
+
+.button-hero:focus,
+.button-hero:hover {
+    color: #263238;
+    background-color: #FFFFFF;
+}
+
+.button-hero {
+    width: 426px;
+    height: 100px;
+    padding: 23px 64px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.5;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #263238;
+    border: 2px solid #263238;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.title-lamp {
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    display: flex;
+}
+
+/* ======================= /Hero ==================== */
+
+/* ====================== Skills =================== */
+
+.skills {
+    padding-bottom: 180px;
+}
+
+.title-section {
+    text-align: center;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.5;
+    color: #000000;
+    margin-bottom: 60px;
+}
+
+.skills-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.5;
+    color: #263238;
+    margin-bottom: 20px;
+}
+
+.text-skills {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #8F95A5;
+    margin-bottom: 30px;
+}
+
+.skills-btn:focus,
+.skills-btn:hover {
+    color: #263238;
+    background-color: #FFFFFF;
+}
+
+.skills-btn {
+    width: 218px;
+    height: 60px;
+    padding: 15px 52px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #263238;
+    border: 2px solid #263238;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.skills-list {
+    display: flex;
+    gap: 30px;
+}
+
+.skills-link-speaking {
+    width: 426px;
+    height: 947px;
+    padding-left: 18px;
+    white-space: pre-line;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.skills-link-writing {
+    width: 426px;
+    height: 579px;
+    white-space: pre-line;
+    padding-left: 18px;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.skills-link-reading {
+    width: 426px;
+    height: 579px;
+    white-space: pre-line;
+    padding-left: 18px;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.skills-link-listening {
+    display: flex;
+    align-items: center;
+    width: 882px;
+    height: 338px;
+    white-space: pre-line;
+    padding: 0 18px;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.link-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+/* ====================== /Skills =================== */
+
+/* ===================== About Us ================== */
+
+.title-about {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.5;
+    color: #000000;
+    margin-bottom: 60px;
+}
+
+.text-about {
+    width: 652px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.8;
+    color: #8F95A5;
+    margin-bottom: 30px;
+    margin-right: 146px;
+}
+
+.about-desc {
+    display: flex;
+    gap: 150px;
+    text-align: center;
+    padding-left: 50px;
+}
+
+.about-text {
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #8F95A5;
+}
+
+.about-content {
+    display: flex;
+}
+
+/* ===================== /About Us ================== */
+
+/* ==================== Pricing ==================== */
+
+.pricing {
+    padding-top: 204px;
+}
+
+.list-pricing {
+    display: flex;
+    gap: 30px;
+}
+
+.title-pricing {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.6;
+    color: #263238;
+}
+
+.text-pricing {
+    margin-bottom: 60px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #8F95A5;
+}
+
+.price {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding-bottom: 4px;
+    width: 260px;
+    height: 45px;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+    background-color: #EEEEEE;
+}
+
+.month {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #546269;
+}
+
+.self-study {
+    margin-top: -30px;
+}
+
+/* ==================== /Pricing ==================== */
+
+/* ==================== Contact Us ================== */
+
+.contact-us {
+    padding-top: 180px;
+    padding-bottom: 130px;
+}
+
+.contacts-content {
+    display: flex;
+}
+
+.form-callback {
+    display: flex;
+    margin-top: 30px;
+}
+
+.form-desc {
+    margin-left: 145px;
+}
+
+.title-contacts {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.5;
+    color: #000000;
+    margin-bottom: 60px;
+}
+
+.text-contacts {
+    width: 654px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #8F95A5;
+}
+
+.form-input-footer:focus,
+.form-input-footer:hover {
+    outline: none;
+    border: 1px solid #263238;
+
+}
+
+.form-input-footer {
+    width: 425px;
+    height: 70px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    color: #8F95A5;
+    border: 1px solid #8F95A5;
+    border-radius: 10px;
+    padding-left: 30px;
+    margin-right: 30px;
+}
+
+.button-form:focus,
+.button-form:hover {
+    color: #263238;
+    background-color: #FFFFFF;
+}
+
+.button-form {
+    width: 312px;
+    height: 70px;
+    padding: 20px 56px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #263238;
+    border: 2px solid #263238;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* ==================== /Contact Us ================== */
+
+/* ==================== Footer ==================== */
+
+.footer-content::before {
+    display: flex;
+    content: "";
+    width: 1318px;
+    height: 1px;
+    background-color: #C4C4C4;
+    margin-bottom: 22px;   
+}
+
+.footerbox-content {
+    display: flex;
+    align-items: center;
+    padding-bottom: 77px;
+}
+.logo-footer {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 1);
+}
+
+.footer-list {
+    display: flex;
+    gap: 80px;
+    margin-left: auto;
+}
+
+.link-footer:focus,
+.link-footer:hover {
+    color: #263238;
+}
+.link-footer {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #8F95A5;
+}
+
+/* &#x2022 - point */
+
+/* ==================== /Footer ==================== */
