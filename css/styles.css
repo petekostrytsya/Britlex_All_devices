@@ -909,10 +909,12 @@ img {
     flex-wrap: wrap;
     flex-direction: column;
     align-content: space-between;
+    align-items: center;
 
 }
 
 .footer-list {
+    margin-top: 15px;
     width: 285px;
     display: flex;
 }
