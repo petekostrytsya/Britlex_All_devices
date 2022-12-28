@@ -547,9 +547,22 @@ img {
     margin-top: 42px;
 }
 
-
-
+.title-about-numbers {
+    margin-bottom: -20px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 3.33;
+    color: #000000;
 }
+
+.about-text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #8F95A5;
+}}
 
 
 /* .title-about {
@@ -593,7 +606,64 @@ img {
 
 /* ==================== Pricing ==================== */
 
+@media screen and (max-width: 574px) {
+
 .pricing {
+    padding-top: 84px;
+}
+
+.img-pricing {
+    width: 100%;
+    height: auto;
+}
+
+.title-pricing {
+    margin-top: 39px;
+    margin-bottom: 17px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.55;
+    color: #263238;
+}
+
+.text-pricing {
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #8F95A5;
+}
+
+.price {
+    margin-top: 33px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px 0;
+    width: 170px;
+    height: 37px;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #EEEEEE;
+}
+
+.month {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #546269;
+}
+
+.list-pricing {
+    display: flex;
+    flex-direction: column;
+}}
+
+/* .pricing {
     padding-top: 204px;
 }
 
@@ -641,13 +711,98 @@ img {
 
 .self-study {
     margin-top: -30px;
-}
+} */
 
 /* ==================== /Pricing ==================== */
 
 /* ==================== Contact Us ================== */
 
+@media screen and (max-width: 574px) {
+
 .contact-us {
+    padding-bottom: 55px;
+}
+
+.contacts-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-callback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 31px;
+    margin-bottom: 55px;
+}
+
+.svg-img {
+    width: 253px;
+    height: 228px;
+}
+
+.title-contacts {
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 3.33;
+    color: #000000;
+    margin-bottom: 38px;
+}
+
+.text-contacts {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #8F95A5;
+    margin-top: 38px;
+}
+
+.form-input-footer:focus,
+.form-input-footer:hover {
+    outline: none;
+    border: 1px solid #263238;
+
+}
+
+.form-input-footer {
+    width: 291px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #8F95A5;
+    border: 1px solid #8F95A5;
+    border-radius: 10px;
+    padding: 16px 0;
+    padding-left: 26px;
+    margin-bottom: 17px;
+}
+
+.button-form:focus,
+.button-form:hover {
+    color: #263238;
+    background-color: #FFFFFF;
+}
+
+.button-form {
+    width: 290px;
+    height: 60px;
+    padding: 20px 109px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #263238;
+    border: 2px solid #263238;
+    border-radius: 10px;
+    cursor: pointer;
+}}
+
+/* .contact-us {
     padding-top: 180px;
     padding-bottom: 130px;
 }
@@ -720,16 +875,64 @@ img {
     border: 2px solid #263238;
     border-radius: 10px;
     cursor: pointer;
-}
+} */
 
 
 /* ==================== /Contact Us ================== */
 
 /* ==================== Footer ==================== */
 
- /* &#x2022 - point */
+@media screen and (max-width: 574px) {
 
 .footer-content::before {
+    display: flex;
+    content: "";
+    width: 290px;
+    height: 1px;
+    background-color: #C4C4C4;
+    margin-bottom: 26px;
+}
+
+.footer-content {
+    padding-bottom: 48px;
+}
+
+.logo-footer {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 1);
+}
+
+.footerbox-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-between;
+
+}
+
+.footer-list {
+    width: 285px;
+    display: flex;
+}
+
+.link-footer:focus,
+.link-footer:hover {
+    color: #263238;
+}
+
+.link-footer {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 1.54;
+    color: #8F95A5;
+}
+
+
+}
+
+/* .footer-content::before {
     display: flex;
     content: "";
     width: 1318px;
@@ -765,7 +968,7 @@ img {
     font-size: 24px;
     line-height: 1.5;
     color: #8F95A5;
-}
+} */
 
 /* &#x2022 - point */
 
