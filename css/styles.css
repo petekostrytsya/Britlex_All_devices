@@ -106,6 +106,51 @@ img {
 }}
 
 
+@media screen and (min-width: 575px) and (max-width: 767px) {
+   
+.menu {
+        display: none;
+    }
+
+    .header-button {
+        display: none;
+    }
+
+        .page-header {
+            padding-top: 39px;
+            padding-bottom: 11px;
+        }
+
+            .logo {
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 1.5;
+                color: rgba(0, 0, 0, 1);
+            }
+        
+                .logo-lex {
+                    font-weight: 400;
+                    font-size: 30px;
+                    line-height: 1.5;
+                    color: rgba(147, 147, 147, 1);
+                }
+        
+                    .page-header-contaniar {
+                        max-width: 767px;
+                        display: flex;
+                        justify-content: space-between;
+                    }
+        
+                        .mobile-menu-open {
+                            border: none;
+                            background-color: transparent;
+                            padding: 0;
+                            line-height: 0;
+                        }
+
+}
+
+
 /* .page-header {
     padding: 55px 0;
 }
@@ -246,6 +291,72 @@ img {
     cursor: pointer;
 }}
 
+
+@media screen and (min-width: 575px) and (max-width: 767px) {
+
+.hero {
+        padding-bottom: 96px;
+    }
+
+        .hero-content {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+            .lamp-hero {
+                display: none;
+            }
+        
+                .word-wrap {
+                    display: none;
+                }
+
+        .title-hero {
+            text-align: center;
+            font-weight: 600;
+            font-size: 34px;
+            line-height: 1.32;
+            color: #000000;
+            margin-top: 55px;
+            margin-bottom: 26px;
+        }
+                .text-hero {
+                    text-align: center;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 1.5;
+                    color: #8F95A5;
+                    margin-bottom: 37px;
+                }
+                        .button-hero:focus,
+                        .button-hero:hover {
+                            color: #263238;
+                            background-color: #FFFFFF;
+                        }
+                
+                            .btn-centre {
+                                display: flex;
+                                justify-content: center;
+                            }
+                        
+                        
+                                .button-hero {
+                                    width: 305px;
+                                    height: 75px;
+                                    padding: 24px 100px;
+                                    font-weight: 500;
+                                    font-size: 18px;
+                                    line-height: 1.5;
+                                    text-align: center;
+                                    color: #FFFFFF;
+                                    background-color: #263238;
+                                    border: 2px solid #263238;
+                                    border-radius: 10px;
+                                    cursor: pointer;
+                                }
+
+}
+
 /* .hero {
     padding-top: 55px;
     padding-bottom: 180px;
@@ -327,8 +438,8 @@ img {
 
 .text-skills {
     font-weight: 400;
-    font-size: 13px;
-    line-height: 1.53;
+    font-size: 12px;
+    line-height: 1.5;
     color: #8F95A5;
 }
 
@@ -408,7 +519,123 @@ img {
     white-space: pre-line;
     border-radius: 10px;
     background-color: #F5F5F5;
-}
+}}
+
+
+@media screen and (min-width: 575px) and (max-width: 767px) {
+
+.skills {
+        padding-top: 96px;
+        padding-bottom: 84px;
+    }
+
+        .title-section {
+            text-align: center;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 2.66;
+            color: #000000;
+            margin-bottom: 18px;
+        }
+
+            .skills-title {
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 4.44;
+                color: #263238;
+            }
+
+                .text-skills {
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 1.5;
+                    color: #8F95A5;
+                }
+
+                    .skills-btn:focus,
+                    .skills-btn:hover {
+                        color: #263238;
+                        background-color: #FFFFFF;
+                    }
+                
+                        .skills-btn {
+                            padding-left: 15px;
+                            width: 200px;
+                            height: 50px;
+                            padding: 14px 54px;
+                            font-weight: 500;
+                            font-size: 14px;
+                            line-height: 1.5;
+                            text-align: center;
+                            color: #FFFFFF;
+                            background-color: #263238;
+                            border: 2px solid #263238;
+                            border-radius: 10px;
+                            cursor: pointer;
+                        }
+
+                            .skills-list {
+                                width: 100%;
+                                display: flex;
+                                flex-wrap: nowrap;
+                                row-gap: 34px;
+                                column-gap: 32px;
+                            }
+
+                            .skills-list {
+                                flex-basis: calc((100% - 32px) / 2);
+                            }
+                        
+                                .img-skills {
+                                    padding-top: 5px;
+                                    padding-left: 23px;
+                                    padding-right: 35px;
+                                    width: 100%;
+                                    height: auto;
+                                }
+
+                                    .skills-link-speaking {
+                                        margin-bottom: 36px;
+                                        width: 230px;
+                                        height: 534px;
+                                        padding-left: 16px;
+                                        /* white-space: pre-line; */
+                                        border-radius: 10px;
+                                        background-color: #F5F5F5;
+                                    }
+                                
+                                        .skills-link-writing {
+                                            margin-bottom: 36px;
+                                            width: 240px;
+                                            height: 534px;
+                                            padding-left: 16px;
+                                            white-space: pre-line;
+                                            border-radius: 10px;
+                                            background-color: #F5F5F5;
+                                        }
+                                
+                                                                .skills-link-reading {
+                                                                    margin-bottom: 36px;
+                                                                    width: 240px;
+                                                                    height: 534px;
+                                                                    padding-left: 16px;
+                                                                    white-space: pre-line;
+                                                                    border-radius: 10px;
+                                                                    background-color: #F5F5F5;
+                                                                }
+                                
+                                                                .skills-link-listening {
+                                                                    margin: 0 auto;
+                                                                    display: flex;
+                                                                    flex-direction: column-reverse;
+                                                                    justify-content: space-around;
+                                                                    width: 240px;
+                                                                    height: 534px;
+                                                                    padding-left: 16px;
+                                                                    /* white-space: pre-line; */
+                                                                    border-radius: 10px;
+                                                                    background-color: #F5F5F5;
+                                                                }
 
 }
 
