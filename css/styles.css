@@ -801,6 +801,60 @@ img {
 }}
 
 
+@media screen and (min-width: 575px) and (max-width: 767px) {
+
+.about-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+        .title-about {
+            text-align: center;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 2.66;
+            color: #000000;
+            margin-bottom: 23px;
+        }
+
+            .img-about {
+                width: 100%;
+                height: auto;
+            }
+
+                .text-about {
+                    text-align: center;
+                    font-size: 14px;
+                    line-height: 1.5;
+                    color: #8F95A5;
+                    margin-top: 49px;
+                    margin-bottom: 21px;
+                }
+
+                    .about-desc {
+                        display: flex;
+                        justify-content: center;
+                        gap: 120px;
+                        text-align: center;
+                    }
+
+                        .title-about-numbers {
+                            margin-bottom: -20px;
+                            text-align: center;
+                            font-weight: 600;
+                            font-size: 24px;
+                            line-height: 3.33;
+                            color: #000000;
+                        }
+
+                            .about-text {
+                                text-align: center;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 1.5;
+                                color: #8F95A5;
+                            }
+}
+
 /* .title-about {
     font-weight: 600;
     font-size: 48px;
@@ -897,7 +951,79 @@ img {
 .list-pricing {
     display: flex;
     flex-direction: column;
+}
+
+.price-month {
+    display: flex;
+    justify-content: center;
 }}
+
+
+@media screen and (min-width: 575px) and (max-width: 767px) {
+
+.pricing {
+        padding-top: 142px;
+        margin-bottom: 54px;
+    }
+
+        .img-pricing {
+            width: 100%;
+            height: auto;
+        }
+    
+            .title-pricing {
+                margin-top: 42px;
+                margin-bottom: 23px;
+                text-align: center;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 1.16;
+                color: #263238;
+            }
+    
+                .text-pricing {
+                    text-align: center;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 1.5;
+                    color: #8F95A5;
+                }
+    
+                    .price {
+                        margin-top: 31px;
+                        margin-bottom: 71px;
+                        display: flex;
+                        justify-content: space-evenly;
+                        align-items: center;
+                        padding: 5px 0;
+                        padding-left: 12px;
+                        width: 205px;
+                        height: 45px;
+                        border-radius: 5px;
+                        font-weight: 400;
+                        font-size: 22px;
+                        line-height: 1.5;
+                        background-color: #EEEEEE;
+                    }
+    
+                        .month {
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 1.5;
+                            color: #546269;
+                        }
+    
+                            .list-pricing {
+                                display: flex;
+                                flex-direction: column;
+                            }
+
+                            .price-month {
+                                display: flex;
+                                justify-content: center;
+                            }
+
+}
 
 /* .pricing {
     padding-top: 204px;
