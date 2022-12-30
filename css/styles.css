@@ -49,7 +49,7 @@ img {
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .container {
-        width: 690px;
+        width: 100%;
         padding: 0 39px;
     }
 }
@@ -147,6 +147,52 @@ img {
                             padding: 0;
                             line-height: 0;
                         }
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+.page-header {
+        padding-top: 39px;
+        padding-bottom: 68px;
+    }
+
+.menu {
+    display: none;
+}
+
+.header-button {
+    display: none;
+}
+
+.logo {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 1);
+}
+
+.logo-lex {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.5;
+    color: rgba(147, 147, 147, 1);
+}
+
+.page-header-contaniar {
+    max-width: 991px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobile-menu-open {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    line-height: 0;
+}
+
 
 }
 
@@ -356,6 +402,69 @@ img {
                                 }
 
 }
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+.hero {
+    padding-bottom: 56px;
+    }
+
+.title-hero {
+    width: 217px;
+    /* height: 135px; */
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.25;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.text-hero {
+    width: 338px;
+    height: 72px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #8F95A5;
+    margin-bottom: 32px;
+    margin-right: 22px;
+}
+
+.button-hero:focus,
+.button-hero:hover {
+    color: #263238;
+    background-color: #FFFFFF;
+}
+
+.button-hero {
+    width: 236px;
+    height: 65px;
+    padding: 19px 67px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #263238;
+    border: 2px solid #263238;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.hero-img {
+    width: 352px;
+    height: 352px;
+}
+
+.title-lamp {
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    display: flex;
+}}
 
 /* .hero {
     padding-top: 55px;
