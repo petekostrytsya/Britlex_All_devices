@@ -800,7 +800,7 @@ img {
     .title-section {
         text-align: center;
         font-weight: 600;
-        font-size: 30px;
+        font-size: 36px;
         line-height: 2.66;
         color: #000000;
         margin-bottom: 60px;
@@ -1216,7 +1216,7 @@ img {
 
 /* .about-content {
     display: flex;
-}} */
+} */
 
 /* ===================== /About Us ================== */
 
@@ -1681,7 +1681,7 @@ img {
 
     .title-contacts {
         font-weight: 600;
-        font-size: 30px;
+        font-size: 36px;
         line-height: 2.66;
         color: #000000;
         /* margin-bottom: 60px; */
