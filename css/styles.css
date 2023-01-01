@@ -1180,7 +1180,7 @@ img {
     font-size: 48px;
     line-height: 1.5;
     color: #000000;
-    margin-bottom: -120px;
+    margin-bottom: -100px;
 }
 
 .text-about {
@@ -1212,7 +1212,7 @@ img {
 .about-reverse {
     display: flex;
     align-items: flex-end;
-}
+}}
 
 /* .about-content {
     display: flex;
@@ -1405,11 +1405,12 @@ img {
         font-size: 16px;
         line-height: 1.5;
         color: #546269;
-    }
+    }}
 
-}
 
-/* .pricing {
+@media screen and (min-width: 992px) {
+
+.pricing {
     padding-top: 204px;
 }
 
@@ -1437,7 +1438,7 @@ img {
 .price {
     display: flex;
     justify-content: space-evenly;
-    align-items: flex-end;
+    align-items: center;
     padding-bottom: 4px;
     width: 260px;
     height: 45px;
@@ -1455,9 +1456,9 @@ img {
     color: #546269;
 }
 
-.self-study {
+.month-price {
     margin-top: -30px;
-} */
+}}
 
 /* ==================== /Pricing ==================== */
 
@@ -1733,27 +1734,38 @@ img {
         border: 2px solid #263238;
         border-radius: 10px;
         cursor: pointer;
-    }
+    }}
 
 
-}
+@media screen and (min-width: 992px) {
 
-/* .contact-us {
+.contact-us {
+    margin: 0 auto;
+    width: 1338px;
+    height: auto;
+    display: flex;
     padding-top: 180px;
     padding-bottom: 130px;
 }
 
+.svg-img {
+    display: none;
+}
+
+.svg-img1 {
+    width: 625px;
+    height: 430px;
+}
+
 .contacts-content {
+    margin-left: 145px;
     display: flex;
+    flex-direction: column;
 }
 
 .form-callback {
     display: flex;
     margin-top: 30px;
-}
-
-.form-desc {
-    margin-left: 145px;
 }
 
 .title-contacts {
@@ -1811,7 +1823,7 @@ img {
     border: 2px solid #263238;
     border-radius: 10px;
     cursor: pointer;
-} */
+}}
 
 
 /* ==================== /Contact Us ================== */
@@ -1969,12 +1981,12 @@ img {
         font-size: 12px;
         line-height: 1.5;
         color: #8F95A5;
-    }
+    }}
 
 
-}
+@media screen and (min-width: 992px) {
 
-/* .footer-content::before {
+.footer-content::before {
     display: flex;
     content: "";
     width: 1318px;
@@ -2010,7 +2022,11 @@ img {
     font-size: 24px;
     line-height: 1.5;
     color: #8F95A5;
-} */
+}
+
+.point {
+    display: none;
+}}
 
 /* &#x2022 - point */
 
