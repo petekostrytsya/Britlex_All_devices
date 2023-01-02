@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="./css/styles.css">
     
 </head>
@@ -21,7 +21,7 @@
             <nav class="page-nav">
                 <a class="logo" href="">Brit<span class="logo-lex">lex</span></a>
                     <ul class="menu">
-                        <li><a class="nav-link" href="#Home">Home</a></li>
+                        <li><a class="nav-link"  href="#Home">Home</a></li>
                         <li><a class="nav-link" href="#Skills">Skills</a></li>
                         <li><a class="nav-link" href="#About">About Us</a></li>
                         <li><a class="nav-link" href="#Pricing">Pricing</a></li>
@@ -29,11 +29,35 @@
                     </ul>
             </nav>
                     <button class="header-button" type="button">Let’s Talk</button>
+
+
                         <button type="button" class="mobile-menu-open js-open-menu">
                             <svg width="34" height="19">
                                 <use href="./img/sprite.svg#icon-burger-menu" ></use>
                             </svg>
                         </button>
+        </div>
+        <div class="mobile-menu js-menu-container">
+            <div class="container mobile-menu-container">
+                <button class="mobile-menu-close js-close-menu">
+                    <svg class="mobile-menu-icon" width="20" height="20">
+                        <use href="./img/sprite.svg#icon-cross-mobile"></use>
+                    </svg>
+                </button>
+                
+                <a class="logo" href="">Brit<span class="logo-lex">lex</span></a>
+            </div>
+
+                <ul class="nav-mobile">
+                    <li><a class="nav-link-mobile" href="#Home">Home</a></li>
+                    <li><a class="nav-link-mobile" href="#Skills">Skills</a></li>
+                    <li><a class="nav-link-mobile" href="#About">About Us</a></li>
+                    <li><a class="nav-link-mobile" href="#Pricing">Pricing</a></li>
+                    <li><a class="nav-link-mobile" href="#Contacts">Contacts</a></li>
+                </ul>
+                <div class="mob-btn">
+                    <button class="btn-mobile" type="button">Let’s Talk</button>
+                </div>       
         </div>
     </header>
 
@@ -58,8 +82,12 @@
                     <button class="button-hero" type="button">Get started</button>
                         </div>
                 </div>
-                
-            <img class="hero-img wow animate__animated animate__zoomIn"  src="./img/learning-languages.jpg" alt="learning-languages">
+             
+                    <img class="hero-img wow animate__animated animate__zoomIn" 
+                    src="./img/learning-languages.jpg" 
+                    alt="learning-languages">
+         
+            
             </div>
         </section>
 
@@ -281,14 +309,14 @@
             <a class="logo-footer" href="">Brit<span class="logo-lex">lex</span></a>
                 <ul class="footer-list">
                     <li><a class="link-footer" href="">Terms and Conditions</a></li>
-                    <li><a class="link-footer" href=""> <span class="point">&#x2022</span> Privacy Policy <span class="point">&#x2022</span> </a></li>
+                    <li><a class="link-footer" href=""> <span class="point">&#x2022;</span> Privacy Policy <span class="point">&#x2022;</span> </a></li>
                     <li><a class="link-footer" href="">Cookie Policy</a></li>
                 </ul>
             </div>
         </div>
     </footer>
 
-
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/wow.min.js"></script>
     <script>
         new WOW().init();
