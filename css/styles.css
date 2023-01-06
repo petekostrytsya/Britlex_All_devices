@@ -2084,9 +2084,13 @@ img {
     width: 320px;
     display: flex;
     flex-direction: column;
-    row-gap: 15px;
+    row-gap: 5px;
     margin: 0 auto;
     margin-bottom: 50px;
+
+    /* opacity: 0;
+    visibility: hidden;
+    pointer-events: none; */
 }
 
 .nav-link-mobile {
